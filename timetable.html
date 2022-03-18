@@ -1,0 +1,330 @@
+<html>
+    <head>
+        <title>Taskyタスキ || 時刻表</title>
+        <link rel="stylesheet" href="styles.css">
+        <link rel="stylesheet" href="timetable-css.css">
+        <link rel="icon" href="web-icon.png">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="https://kit.fontawesome.com/e4995ec024.js" crossorigin="anonymous"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    </head>
+    <body>
+        <div class="message-wrapper">
+            <div class="message">
+                <div class="close-message-btn"><i class="fa-solid fa-circle-xmark"></i></div>
+                <div class="message-center">
+                    <div class="message-gif">
+                        <img src="message-gif.gif" alt="giyuu">
+                    </div>
+                    <div class="message-text">
+                        <div>The editing feature</div>
+                        <div>is under development.</div> 
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- navigation bar -->
+        <nav class="nav-bar">
+            <div class="nav-center">
+                <div class="logo">
+                    <img src="logo.png" alt="logo">
+                </div>
+                <div class="nav-links">
+                    <ul class="links">
+                        <li><a href="index.html">ホーム</a></li>
+                        <li class="selected-link"><a href="#">時刻表</a></li>
+                        <li><a href="tasks.html">タスク</a></li>
+                        <li><a href="calendar.html">暦</a></li>
+                    </ul>
+                </div>
+                <div class="menu">
+                    <a href="#none"class="refresh-btn">晴らす</a>
+                </div>
+            </div>
+        </nav>
+        <div class="mobile-links">
+            <div class="links-style">
+                <ul class="mob-links-items">
+                    <li title="home"><a href="index.html">
+                        <i class="fa-solid fa-house-chimney"></i>
+                        <div>ホーム</div>
+                    </a></li>
+                    <li title="timetable" class="selected-mob-link"><a href="#">
+                        <i class="fa-solid fa-table-cells"></i>
+                        <div>時刻表</div>
+                    </a></li>
+                    <li title="tasks"><a href="tasks.html">
+                        <i class="fa-solid fa-list-check"></i>
+                        <div>タスク</div>
+                    </a></li>
+                    <li title="calendar"><a href="calendar.html">
+                        <i class="fa-solid fa-calendar-days"></i>
+                        <div>暦</div>
+                    </a></li>
+                </ul>
+            </div>
+        </div>
+        <!-- content -->
+        <div class="content-wrapper">
+            <div class="content-center">
+                <div class="content">
+                    <div class="timetable-display">
+                        <h1 class="header">2学期の時間割 2021/2022</h1>
+                        <table class="timetable-style">
+                            <tr>
+                                <th>日/時</th>
+                                <th>8-9</th>
+                                <th>9-10</th>
+                                <th>10-11</th>
+                                <th>11-12</th>
+                                <th>12-1</th>
+                                <th>1-2</th>
+                                <th>2-3</th>
+                                <th>3-4</th>
+                                <th>4-5</th>
+                                <th>5-6</th>
+                                <th>6-7</th>
+                                <th>7-8</th>
+                            </tr>
+                            <tr id="Monday">
+                                <td>月</td>
+                                <td></td>
+                                <td>
+                                    <a href="https://meet.google.com/cwc-ggfi-pen" target="_blank">
+                                        <div class="course">
+                                            <div>
+                                                <div>GIG1004 (1)</div>
+                                                <div>Information Literacy</div>
+                                                <div>Tutorial</div>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </td>
+                                <td></td>
+                                <td></td>
+                                <td colspan="2">
+                                    <a href="https://teams.microsoft.com/l/channel/19%3a012c026380074390b0ce5969f2eea343%40thread.tacv2/Lecture%2520K1?groupId=dfcd09cf-3354-4606-935d-a354356f4de2&tenantId=a63bb1a9-48c2-448b-8693-3317b00ca7fb" target="_blank">
+                                        <div class="course">
+                                            <div>
+                                                <div>WIA1002 (5)</div>
+                                                <div>Data Structure</div>
+                                                <div>Lecture</div>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </td>
+                                <!-- <td>
+                                    <div class="course">
+                                        <div>WIA1002 (5)</div>
+                                        <div>Data Structure</div>
+                                        <div>Lecture</div>
+                                    </div>
+                                </td> -->
+                                <td></td>
+                                <td colspan="2">
+                                    <a href="https://bit.ly/3q2s5to" target="_blank">
+                                        <div class="course">
+                                            <div>
+                                                <div>WID3006 (3)</div>
+                                                <div>Machine Learning</div>
+                                                <div>Lecture</div>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </td>
+                                <!-- <td>
+                                    <div class="course">
+                                        <div>WID3006 (3)</div>
+                                        <div>Machine Learning</div>
+                                        <div>Lecture</div>
+                                    </div>
+                                </td> -->
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            <tr id="Tuesday">
+                                <td>火</td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td colspan="2">
+                                    <a href="https://teams.microsoft.com/l/channel/19%3aNv6H6ZbRFH1vWFyfJd_xQu4XxGPDXs-Re5ouF__E00Y1%40thread.tacv2/General?groupId=96d5432d-fc39-4157-bd25-d23159c82954&tenantId=a63bb1a9-48c2-448b-8693-3317b00ca7fb" target="_blank">
+                                        <div class="course">
+                                            <div>
+                                                <div>GIG1013 (10)</div>
+                                                <div>Appreciation of Ethics and Civilisation</div>
+                                                <div>Lecture</div>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </td>
+                                <!-- <td>
+                                    <div class="course">
+                                        <div>GIG1013 (10)</div>
+                                        <div>Appreciation of Ethics and Civilisation</div>
+                                        <div>Lecture</div>
+                                    </div>
+                                </td> -->
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            <tr id="Wednesday">
+                                <td>水</td>
+                                <td></td>
+                                <td colspan="3">
+                                    <a href="https://teams.microsoft.com/l/channel/19%3a3269fece1b4146f5bfda800343fa40b0%40thread.tacv2/Lecture%2520K2?groupId=dfcd09cf-3354-4606-935d-a354356f4de2&tenantId=a63bb1a9-48c2-448b-8693-3317b00ca7fb" target="_blank">
+                                        <div class="course">
+                                            <div>
+                                                <div>WIA1002 (5)</div>
+                                                <div>Data Structure</div>
+                                                <div>Tutorial</div>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </td>
+                                <!-- <td>
+                                    <div class="course">
+                                        <div>WIA1002 (5)</div>
+                                        <div>Data Structure</div>
+                                        <div>Tutorial</div>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div class="course">
+                                        <div>WIA1002 (5)</div>
+                                        <div>Data Structure</div>
+                                        <div>Tutorial</div>
+                                    </div>
+                                </td> -->
+                                <td colspan="2">
+                                    <a href="https://teams.microsoft.com/l/channel/19%3af0f31b6c65a144749df20b2cbc2de28c%40thread.tacv2/General?groupId=5dfb8327-db93-4444-b101-cd025706488d&tenantId=a63bb1a9-48c2-448b-8693-3317b00ca7fb" target="_blank">
+                                        <div class="course">
+                                            <div>
+                                                <div>WIA1003 (2)</div>
+                                                <div>Computer System Architecture</div>
+                                                <div>Lecture</div>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </td>
+                                <!-- <td>
+                                    <div class="course">
+                                        <div>WIA1003 (2)</div>
+                                        <div>Computer System Architecture</div>
+                                        <div>Lecture</div>
+                                    </div>
+                                </td> -->
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            <tr id="Thursday">
+                                <td>木</td>
+                                <td></td>
+                                <td colspan="2">
+                                    <a href="https://teams.microsoft.com/l/team/19%3aeI9gJLCuQnWdYnBGJSVMuMlkW4yzur6GEXgft113CDM1%40thread.tacv2/conversations?groupId=b3d0dcc7-281f-4460-96ba-c34ed504a8b9&tenantId=a63bb1a9-48c2-448b-8693-3317b00ca7fb " target="_blank">
+                                        <div class="course">
+                                            <div>
+                                                <div>GIG1005 (11)</div>
+                                                <div>Social Engagement</div>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </td>
+                                <!-- <td>
+                                    <div class="course">
+                                        <div>GIG1005 (11)</div>
+                                        <div>Social Engagement</div>
+                                    </div>
+                                </td> -->
+                                <td colspan="2">
+                                    <a href="https://teams.microsoft.com/l/channel/19%3asqgz_hyhGLRf_YMGMst3id_kD99L9YxJgAA89QC2-hM1%40thread.tacv2/General?groupId=854b3140-5066-479a-a4f9-0f4eb4c4b253&tenantId=a63bb1a9-48c2-448b-8693-3317b00ca7fb" target="_blank">
+                                        <div class="course">
+                                            <div>
+                                                <div>WIE2003 (1)</div>
+                                                <div>Introduction to Data Science</div>
+                                                <div>Lecture</div>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </td>
+                                <!-- <td>
+                                    <div class="course">
+                                        <div>WIE2003 (1)</div>
+                                        <div>Introduction to Data Science</div>
+                                        <div>Lecture</div>
+                                    </div>
+                                </td> -->
+                                <td></td>
+                                <td>
+                                    <a href="https://teams.microsoft.com/l/channel/19%3asqgz_hyhGLRf_YMGMst3id_kD99L9YxJgAA89QC2-hM1%40thread.tacv2/General?groupId=854b3140-5066-479a-a4f9-0f4eb4c4b253&tenantId=a63bb1a9-48c2-448b-8693-3317b00ca7fb" target="_blank">
+                                        <div class="course">
+                                            <div>
+                                                <div>WIE2003 (1)</div>
+                                                <div>Introduction to Data Science</div>
+                                                <div>Tutorial</div>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            <tr id="Friday">
+                                <td>金</td>
+                                <td></td>
+                                <td>
+                                    <a href="https://bit.ly/3KMPerT " target="_blank">
+                                        <div class="course">
+                                            <div>
+                                                <div>WID3006 (3)</div>
+                                                <div>Machine Learning</div>
+                                                <div>Tutorial</div>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td>
+                                    <a href="https://teams.microsoft.com/l/meetup-join/19%3annB2QddSyEBQydRVNl--UmThVW4aN8rqrwPl8qj1KuI1%40thread.tacv2/1647579271124?context=%7b%22Tid%22%3a%22a63bb1a9-48c2-448b-8693-3317b00ca7fb%22%2c%22Oid%22%3a%228fad88f0-4846-4f8c-a853-476160faf465%22%7d" target="_blank">
+                                        <div class="course">
+                                            <div>
+                                                <div>WIA1003 (2)</div>
+                                                <div>Computer System Architecture</div>
+                                                <div>Tutorial</div>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                        </table>
+                    </div>
+                    <div class="edit-btn-wrapper">
+                        <button class="edit-btn">Edit</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="timetable-js.js"></script>
+    </body>
+</html>

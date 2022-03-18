@@ -1,0 +1,68 @@
+.header{
+    width: 100%;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.timetable-style{
+    text-align: center;
+    border-collapse: collapse;
+}
+
+.timetable-style tr{
+    height: 80px;
+}
+
+.timetable-style tr:nth-child(1){
+    height: 60px;
+}
+/* #d6ffe3
+#ffd6fe */
+.timetable-style tr td, .timetable-style tr th{
+    height: inherit;
+    width: 100px;
+    border: solid 2px #d6ffe3;
+}
+
+.timetable-style tr a{
+    height: inherit;
+}
+
+.course div > div:nth-of-type(1), .course div > div:nth-of-type(3){
+    font-size: 12px;
+}
+
+.course{
+    height: inherit;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+}
+
+.course:hover{
+    cursor: pointer;
+    background-color: #d6ffe3;
+    transition: 0.2s ease-in;
+}
+
+.edit-btn-wrapper{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 20px;
+}
+
+.edit-btn-wrapper button{
+    padding: 5px 37px;
+    background-color: white;
+    border: solid 1px black;
+    border-radius: 5px;
+}
+
+.edit-btn-wrapper button:hover{
+    background-color: black;
+    border: solid 1px black;
+    color: white;
+    transition: 0.2s ease-in;
+}

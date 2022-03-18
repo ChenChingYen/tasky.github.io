@@ -1,0 +1,89 @@
+<html>
+    <head>
+        <title>Taskyタスキ || 暦</title>
+        <link rel="stylesheet" href="styles.css">
+        <link rel="stylesheet" href="calendar-css.css">
+        <link rel="icon" href="web-icon.png">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="https://kit.fontawesome.com/e4995ec024.js" crossorigin="anonymous"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    </head>
+    <body>
+        <div class="message-wrapper">
+            <div class="message">
+                <div class="close-message-btn"><i class="fa-solid fa-circle-xmark"></i></div>
+                <div class="message-center">
+                    <div class="message-gif">
+                        <img src="message-gif.gif" alt="giyuu">
+                    </div>
+                    <div class="message-text">
+                        <div>The editing feature</div>
+                        <div>is under development.</div> 
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- navigation bar -->
+        <nav class="nav-bar">
+            <div class="nav-center">
+                <div class="logo">
+                    <img src="logo.png" alt="logo">
+                </div>
+                <div class="nav-links">
+                    <ul class="links">
+                        <li><a href="index.html">ホーム</a></li>
+                        <li><a href="timetable.html">時刻表</a></li>
+                        <li><a href="tasks.html">タスク</a></li>
+                        <li class="selected-link"><a href="#">暦</a></li>
+                    </ul>
+                </div>
+                <div class="menu">
+                    <a href="#none"class="refresh-btn">晴らす</a>
+                </div>
+            </div>
+        </nav>
+        <div class="mobile-links">
+            <div class="links-style">
+                <ul class="mob-links-items">
+                    <li title="home"><a href="index.html">
+                        <i class="fa-solid fa-house-chimney"></i>
+                        <div>ホーム</div>
+                    </a></li>
+                    <li title="timetable"><a href="timetable.html">
+                        <i class="fa-solid fa-table-cells"></i>
+                        <div>時刻表</div>
+                    </a></li>
+                    <li title="tasks"><a href="tasks.html">
+                        <i class="fa-solid fa-list-check"></i>
+                        <div>タスク</div>
+                    </a></li>
+                    <li title="calendar" class="selected-mob-link"><a href="#">
+                        <i class="fa-solid fa-calendar-days"></i>
+                        <div>暦</div>
+                    </a></li>
+                </ul>
+            </div>
+        </div>
+        <!-- content -->
+        <div class="content-wrapper">
+            <div class="content-center">
+                <div class="content">
+                    <div class="slider-wrapper">
+                        <div class="left btn">
+                            <i class="fa-solid fa-circle-chevron-left"></i>
+                        </div>
+                        <div class="slider-content">
+                        </div>
+                        <div class="right btn">
+                            <i class="fa-solid fa-circle-chevron-right"></i>
+                        </div>
+                    </div>
+                    <div class="edit-btn-wrapper">
+                        <button class="edit-btn">Edit</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="calendar-js.js"></script>
+    </body>
+</html>

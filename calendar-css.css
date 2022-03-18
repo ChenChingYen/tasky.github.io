@@ -1,0 +1,84 @@
+.slider-wrapper{
+    background-color: white;
+    height: auto;
+    padding: 0 30px;
+    padding-bottom: 0;
+    border-radius: 10px;
+    display: grid;
+    grid-template-columns: 1fr 20fr 1fr;
+}
+
+.slider-content{
+    height: auto;
+    width: 1200px;
+    background-color:none;
+}
+
+.calendar-content{
+    width: inherit;
+    height: inherit;
+}
+
+.btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    color: #a6a6a6;
+}
+
+.btn i:hover{
+    color: black;
+}
+
+.calendar-content h1{
+    text-align: center;
+    width: 100%;
+    margin: 10px 0;
+}
+
+.calendar{
+    width: 100%;
+    /* border-collapse: collapse; */
+}
+
+.calendar th{
+    height: 30px;
+}
+
+.calendar tr td{
+    height: 72px;
+    padding: 10px;
+}
+
+.calendar tr th, .calendar tr td{
+    background-color: #e3f2ff;
+    border-radius: 10px;
+    width: 50px;
+}
+
+.calendar tr td:hover{
+    background-color: #c2e2ff;
+    transition: 0.2s ease-in;
+}
+
+.edit-btn-wrapper{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 20px;
+}
+
+.edit-btn-wrapper button{
+    padding: 5px 37px;
+    background-color: white;
+    border: solid 1px black;
+    border-radius: 5px;
+}
+
+.edit-btn-wrapper button:hover{
+    background-color: black;
+    border: solid 1px black;
+    color: white;
+    transition: 0.2s ease-in;
+}
