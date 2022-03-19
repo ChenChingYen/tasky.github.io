@@ -158,7 +158,7 @@ const data = [
             </tr>\
             <tr>\
                 <td class=\"sembreak\">8</td>\
-                <td class=\"sembreak\">9</td>\
+                <td>9</td>\
                 <td>10</td>\
                 <td class=\"event\">11<span>WIA1002 LAB TEST & WIA1003 MID-SEM TEST</span></td>\
                 <td class=\"event\">12<span>WID3006 LAB 2 SUBMISSION</span></td>\
@@ -177,7 +177,7 @@ const data = [
             <tr>\
                 <td>22</td>\
                 <td>23</td>\
-                <td>24</td>\
+                <td class=\"special\">24<span>DAJIE's CONVOCATION</span></td>\
                 <td>25</td>\
                 <td>26</td>\
                 <td>27</td>\

@@ -100,3 +100,18 @@
 .sembreak{
     background-color: #d4ffe1 !important;
 }
+
+.special{
+    max-width: 50px;
+    background-color: #ffa3bc !important;
+}
+
+.special:hover{
+    background-color: #ff2660 !important;
+    color: white;
+}
+
+.special span{
+    margin-left: 8px;
+    font-size: 10px;
+}
