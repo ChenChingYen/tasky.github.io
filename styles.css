@@ -149,7 +149,14 @@ ul li{
 
 @media screen and (max-width: 680px) {
     .content-wrapper{
-        height: 470px;
+        /* height: 470px; */
+        height: 650px;
+    }
+    .content{
+        width: 100%;
+        height:100%;
+        border-radius: 0px;
+        padding: 0px;
     }
     .nav-links{
         display: none;

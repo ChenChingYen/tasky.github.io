@@ -416,18 +416,35 @@ const sliderContent = document.querySelector(".slider-content");
 var index = 0;
 sliderContent.innerHTML = data[index];
 
-leftBtn.addEventListener("click", function(){
+function slideLeft(){
     if( index > 0){
         index -= 1;   
     }
     sliderContent.innerHTML = data[index];
-});
+}
 
-rightBtn.addEventListener("click", function(){
+function slideRight(){
     if( index < data.length - 1 ){
         index += 1;   
     }
     sliderContent.innerHTML = data[index];
+}
+
+document.addEventListener("keydown", function(e){
+    if(e.keyCode == 37){
+        slideLeft();
+    }
+    else if(e.keyCode == 39){
+        slideRight();
+    }
+});
+
+leftBtn.addEventListener("click", function(){
+    slideLeft();
+});
+
+rightBtn.addEventListener("click", function(){
+    slideRight();
 });
 
 const editBtn = document.querySelector(".edit-btn");
