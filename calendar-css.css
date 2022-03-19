@@ -82,3 +82,21 @@
     color: white;
     transition: 0.2s ease-in;
 }
+
+.event{
+    background-color: #f9e6ff !important;
+    max-width: 50px;
+}
+
+.event span{
+    margin-left: 8px;
+    font-size: 10px;
+}
+
+.event:hover{
+    background-color: #f4d4ff !important;
+}
+
+.sembreak{
+    background-color: #d4ffe1 !important;
+}

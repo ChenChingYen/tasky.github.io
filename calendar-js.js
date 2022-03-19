@@ -92,8 +92,8 @@ const data = [
                 <td>3</td>\
                 <td>4</td>\
                 <td>5</td>\
-                <td>6</td>\
-                <td>7</td>\
+                <td class=\"event\">6<span>WIA1002 LAB TEST</span></td>\
+                <td class=\"event\">7<span>WIE2003 ASSIGNMENT DUE & WID3006 LAB 1 SUBMISSION</span></td>\
                 <td>8</td>\
                 <td>9</td>\
             </tr>\
@@ -120,7 +120,7 @@ const data = [
                 <td>25</td>\
                 <td>26</td>\
                 <td>27</td>\
-                <td>28</td>\
+                <td class=\"event\">28<span>WIE2003 MID-SEM TEST</span></td>\
                 <td>29</td>\
                 <td>30</td>\
             </tr>\
@@ -149,20 +149,20 @@ const data = [
             </tr>\
             <tr>\
                 <td>1</td>\
-                <td>2</td>\
-                <td>3</td>\
-                <td>4</td>\
-                <td>5</td>\
-                <td>6</td>\
-                <td>7</td>\
+                <td class=\"sembreak\">2</td>\
+                <td class=\"sembreak\">3</td>\
+                <td class=\"event\">4<span>WIA1002 ONLINE TEST</span></td>\
+                <td class=\"sembreak\">5</td>\
+                <td class=\"sembreak\">6</td>\
+                <td class=\"sembreak\">7</td>\
             </tr>\
             <tr>\
-                <td>8</td>\
-                <td>9</td>\
+                <td class=\"sembreak\">8</td>\
+                <td class=\"sembreak\">9</td>\
                 <td>10</td>\
-                <td>11</td>\
-                <td>12</td>\
-                <td>13</td>\
+                <td class=\"event\">11<span>WIA1002 LAB TEST & WIA1003 MID-SEM TEST</span></td>\
+                <td class=\"event\">12<span>WID3006 LAB 2 SUBMISSION</span></td>\
+                <td class=\"event\">13<span>WIA1003 MID-SEM TEST</span></td>\
                 <td>14</td>\
             </tr>\
             <tr>\
@@ -170,7 +170,7 @@ const data = [
                 <td>16</td>\
                 <td>17</td>\
                 <td>18</td>\
-                <td>19</td>\
+                <td class=\"event\">19<span>WID3006 MID-SEM TEST</span></td>\
                 <td>20</td>\
                 <td>21</td>\
             </tr>\
@@ -219,9 +219,9 @@ const data = [
                 <td></td>\
                 <td></td>\
                 <td></td>\
-                <td>1</td>\
+                <td class=\"event\">1<span>WIA1003 ALTERNATIVE ASSESSMENT 1</span></td>\
                 <td>2</td>\
-                <td>3</td>\
+                <td class=\"event\">3<span>WIA1003 ALTERNATIVE ASSESSMENT 1</span></td>\
                 <td>4</td>\
             </tr>\
             <tr>\
@@ -230,7 +230,7 @@ const data = [
                 <td>7</td>\
                 <td>8</td>\
                 <td>9</td>\
-                <td>10</td>\
+                <td class=\"event\">10<span>WID3006 PROJECT DUE</span></td>\
                 <td>11</td>\
             </tr>\
             <tr>\
@@ -246,9 +246,9 @@ const data = [
                 <td>19</td>\
                 <td>20</td>\
                 <td>21</td>\
-                <td>22</td>\
-                <td>23</td>\
-                <td>24</td>\
+                <td class=\"event\">22<span>WIA1003 ALTERNATIVE ASSESSMENT 2</span></td>\
+                <td class=\"event\">23<span>WIE2003 GROUP PROJECT DUE & WID3006 LAB 3 SUBMISSION</span></td>\
+                <td class=\"event\">24<span>WIA1003 ALTERNATIVE ASSESSMENT 2</span></td>\
                 <td>25</td>\
             </tr>\
             <tr>\
